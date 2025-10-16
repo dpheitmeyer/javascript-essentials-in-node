@@ -4,7 +4,7 @@ console.log(basket);
 /* for..of */
 console.log("Try using for..of");
 /* iterate or loop over an array with for..of */
-for (item of basket) {
+for (const item of basket) {
   console.log(item.toUpperCase());
 }
 

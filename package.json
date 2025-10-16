@@ -1,0 +1,23 @@
+{
+  "name": "class-06-javascript",
+  "version": "1.0.0",
+  "description": "Play and experiment with these examples.  These are designed to be run in node from the command line.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dpheitmeyer/javascript-essentials-in-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dpheitmeyer/javascript-essentials-in-node/issues"
+  },
+  "homepage": "https://github.com/dpheitmeyer/javascript-essentials-in-node#readme",
+  "dependencies": {
+    "@11ty/eleventy-fetch": "^5.1.0"
+  }
+}

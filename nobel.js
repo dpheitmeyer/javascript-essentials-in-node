@@ -1,4 +1,4 @@
-let prizeData = require("./data/nobel-prizes.json");
+import prizeData from "./data/nobel-prizes.json"  with { type: "json" };
 
 let prizes = prizeData.nobelPrizes;
 console.log(prizes.length);
@@ -22,7 +22,6 @@ for (year of allYears) {
     uniqueYears.push(year);
   }
 }
-
 console.log(uniqueYears);
 /* let's see how "filter" method works */
 /* what prizes were awarded in 2025? */
